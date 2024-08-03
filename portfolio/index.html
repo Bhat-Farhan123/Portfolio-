@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(13, 13, 56);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #261c4f;
+            height: 80px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            margin: 0 23px;
+            list-style: none;
+        }
+
+        .left {
+            font-size: 1.8rem;
+            color: #42f5ce;
+        }
+
+        /*-----------------------------------------------*/
+        .leftSection {
+
+            font-size: 2.8rem;
+            margin: 25px 0;
+
+
+        }
+
+        .rightSection {
+            border: 10px solid rgb(203, 2, 248);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+
+            overflow: hidden;
+            width: 300px;
+            height: 300px;
+            border-radius: 50% 10% 50% 10%;
+            background-color: rgb(143, 192, 197);
+
+
+
+        }
+
+
+        .firstSection>DIV {}
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+           
+
+
+
+
+
+        }
+
+
+
+        .rightSection img {
+            height: 120%;
+
+        }
+
+        .purple {
+            color: rgb(0, 0, 255);
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(117, 16, 219);
+        }
+
+        nav ul li a:hover {
+            color: rgb(132, 132, 234);
+            font-size: 1.02rem;
+        }
+
+        #element {
+            color: rgb(0, 0, 255);
+        }
+
+        h2 {
+            color: #60e706;
+            margin-left: 60px;
+            margin-top: 20px;
+        }
+
+        .last {
+            height: 125x;
+            width: 750px;
+            overflow: hidden;
+            
+        }
+
+        .last img {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+
+        <nav>
+            <div class="left">Farhan's Portfolio</div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a> </li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+
+    <main>
+
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi Coders, My name is <span class="purple">Farhan</span>
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+
+            </div>
+
+            <div class="abc">
+                <div class="rightSection">
+
+                    <img src="farhan2 (2).jpg" alt="">
+
+                </div class="as">
+
+                <h2>FARHAN NISAR</h2>
+            </div>
+
+        </section>
+        
+    </main>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Front-end Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
